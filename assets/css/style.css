@@ -1,9 +1,55 @@
 
 /*------------------- Navigation -------------------*/
 
+.logo {
 
+}
 
+/*------------- Hero Image & Cover Text -------------*/
 
+#hero {
+	padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url(../images/hero2.jpg); 
+	width: auto;
+	height: 550px;
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: top center;
+}
+  
+
+#hero h2 {
+	font-family: "ABugLife", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+	font-size: 70px; 
+	letter-spacing: 10px; 
+	text-align: center; 
+	color: white; 
+	text-transform: uppercase; 
+	z-index: 10; 
+	opacity: .9;
+}
+
+#hero p {
+	font-family: "ABugLife", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+	font-size: 30px; 
+	letter-spacing: 10px; 
+	text-align: center; 
+	color: white; 
+	text-transform: uppercase; 
+	z-index: 10; 
+	opacity: .9;
+}
 
 
 
@@ -20,6 +66,11 @@
 
 .social-media {
   text-align: center;
+}
+
+.social-media ul {
+  padding: 0px;
+  margin: 5px;
 }
 
 .social-media li {
