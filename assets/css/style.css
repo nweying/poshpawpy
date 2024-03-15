@@ -42,8 +42,8 @@
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: italic;
-	font-size: 30px; 
-	letter-spacing: 10px; 
+	font-size: 20px; 
+	letter-spacing: 8px; 
 	text-align: center; 
 	color: white; 
 	text-transform: uppercase; 
@@ -51,7 +51,26 @@
 	opacity: .9;
 }
 
+/*-------------------- About Us --------------------*/
 
+#about {
+	background-color: #101010;
+	padding-bottom: 10px;
+}
+
+#about .about-image {
+	background-image: url(../images/about.png); 
+	height: 400px;
+}
+
+#about .about-description {
+	color: #fff;
+	padding: 100px 70px;
+}
+
+#about .about-description h5 {
+	color: #E8A0BF;
+}
 
 /*-------------------- Footer ----------------------*/
 
