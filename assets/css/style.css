@@ -72,6 +72,40 @@
 	color: #E8A0BF;
 }
 
+/*------------------ Testimonials ------------------*/
+
+#ourtestimonials {
+  background-color: #FDF4F5;
+}
+
+.testimonials > img {
+	height: 400px;
+	width: auto;
+}
+
+.testimonials {
+	color: #fff;
+  background-color: #FDF4F5;
+}
+
+.card-title {
+  font-size: 100%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  width: 300px;
+  height: 100px;
+  padding-top: 15px;
+  padding-left: 20px;
+
+  background-color: rgba(128, 128, 128, 0.5);
+  bottom: 30px;
+  right: 80px;
+
+  position: absolute;
+}
+
 /*-------------------- Footer ----------------------*/
 
 .container-fluid { 
