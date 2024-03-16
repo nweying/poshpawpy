@@ -32,6 +32,7 @@
 	letter-spacing: 10px; 
 	text-align: center; 
 	color: white; 
+  text-shadow: -1px -1px 0 black;
 	text-transform: uppercase; 
 	z-index: 10; 
 	opacity: .9;
@@ -104,6 +105,39 @@
   right: 80px;
 
   position: absolute;
+}
+
+/*-------------------- Services ----------------------*/
+
+#service-hero {
+	padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url(../images/serviceshero.jpg); 
+	width: auto;
+	height: 550px;
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: top center;
+}
+  
+
+#service-hero h2 {
+	font-family: "ABugLife", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+	font-size: 70px; 
+	letter-spacing: 10px; 
+	text-align: center; 
+	color: white; 
+  text-shadow: -1px -1px 0 black;
+	text-transform: uppercase; 
+	z-index: 10; 
+	opacity: .9;
 }
 
 /*-------------------- Footer ----------------------*/
