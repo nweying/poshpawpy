@@ -13,7 +13,7 @@
 	overflow: hidden; 
 	position: relative; 
 	width: 100%; 
-	background-image: url(../images/hero2.jpg); 
+	background-image: url(../images/hero-index.jpg); 
 	width: auto;
 	height: 550px;
 	background-attachment: fixed; 
@@ -115,7 +115,7 @@
 	overflow: hidden; 
 	position: relative; 
 	width: 100%; 
-	background-image: url(../images/serviceshero.jpg); 
+	background-image: url(../images/hero-services.jpg); 
 	width: auto;
 	height: 550px;
 	background-attachment: fixed; 
@@ -139,6 +139,22 @@
 	z-index: 10; 
 	opacity: .9;
 }
+
+/*-------------------- Gallery ----------------------*/
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Style each gallery image */
+  .gallery img {
+	width: 100%; /* Ensure images take up full width of their container */
+	height: auto; /* Maintain aspect ratio */
+	margin: 5px; /* Add margin between images */
+  }
 
 /*-------------------- Footer ----------------------*/
 
