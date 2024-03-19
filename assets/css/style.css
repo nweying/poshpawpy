@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	font-family: "Poppins", "Serif";
+}
 
 /*------------------- Navigation -------------------*/
 
@@ -16,7 +21,13 @@
 .nav .active {
 	border-bottom: 2px solid #BA90C6;
   	color: #BA90C6;
+	font-weight: 600;
 }
+
+.nav .nav-link:hover {
+	color: #BA90C6;
+}
+
 /*--------------- Hero Image & Cover Text -------------*/
 
 #hero {
@@ -36,10 +47,10 @@
   
 
 #hero h2 {
-	font-family: "ABugLife", serif;
+	font-family: "Poppins", serif;
 	font-optical-sizing: auto;
 	font-weight: 800;
-	font-style: normal;
+	font-style: italic;
 	font-size: 70px; 
 	letter-spacing: 10px; 
 	text-align: center; 
@@ -51,7 +62,7 @@
 }
 
 #hero p {
-	font-family: "ABugLife", serif;
+	font-family: "Poppins", serif;
   	font-optical-sizing: auto;
   	font-weight: 200;
   	font-style: italic;
@@ -104,10 +115,10 @@
 
 .card-title {
   font-size: 100%;
-  font-family: Oswald;
+  font-family: "Poppins";
   text-transform: uppercase;
   letter-spacing: 2px;
-
+  font-style: italic;
   width: 300px;
   height: 100px;
   padding-top: 15px;
@@ -139,10 +150,10 @@
   
 
 #service-hero h2 {
-	font-family: "ABugLife", serif;
+	font-family: "Poppins", serif;
   	font-optical-sizing: auto;
   	font-weight: 800;
-  	font-style: normal;
+  	font-style: italic;
 	font-size: 70px; 
 	letter-spacing: 10px; 
 	text-align: center; 
@@ -205,10 +216,10 @@
   
 
 #contact-hero h2 {
-	font-family: "ABugLife", serif;
+	font-family: "Poppins", serif;
   	font-optical-sizing: auto;
   	font-weight: 800;
-  	font-style: normal;
+  	font-style: italic;
 	font-size: 70px; 
 	letter-spacing: 10px; 
 	text-align: center; 
@@ -266,3 +277,14 @@
   padding: 5px;
   color: #777777;
 }
+
+/*------------------- Media Queries ------------------*/
+
+@media screen and (max-width: 992px) {
+	
+
+	
+}
+
+
+@media screen and (max-width: 800px)
