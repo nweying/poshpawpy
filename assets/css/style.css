@@ -5,7 +5,9 @@
 
 }
 
-/*------------- Hero Image & Cover Text -------------*/
+
+
+/*--------------- Hero Image & Cover Text -------------*/
 
 #hero {
 	padding-top: 200px; 
@@ -25,14 +27,14 @@
 
 #hero h2 {
 	font-family: "ABugLife", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
 	font-size: 70px; 
 	letter-spacing: 10px; 
 	text-align: center; 
 	color: white; 
-  text-shadow: -1px -1px 0 black;
+  	text-shadow: -1px -1px 0 black;
 	text-transform: uppercase; 
 	z-index: 10; 
 	opacity: .9;
@@ -40,9 +42,9 @@
 
 #hero p {
 	font-family: "ABugLife", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: italic;
+  	font-optical-sizing: auto;
+  	font-weight: 200;
+  	font-style: italic;
 	font-size: 20px; 
 	letter-spacing: 8px; 
 	text-align: center; 
@@ -140,7 +142,19 @@
 	opacity: .9;
 }
 
-/*-------------------- Gallery ----------------------*/
+.services h3, p {
+	align-content: center;
+}
+.services p {
+	font-style: italic;
+}
+.service-image{
+	width: 100px;
+	align-content: center;
+}
+
+/*-------------------- Gallery ----------------------*/ 
+/* Adaptive Photo Layout with Flexbox */
 
 .gallery ul {
 	display: flex;
@@ -159,6 +173,52 @@
 	object-fit: cover;
 	vertical-align: bottom;
   }
+
+/*-------------------- Contact ----------------------*/ 
+
+  #contact-hero {
+	padding-top: 200px; 
+	padding-bottom: 200px; 
+	overflow: hidden; 
+	position: relative; 
+	width: 100%; 
+	background-image: url(../images/hero-contact.jpg); 
+	width: auto;
+	height: 400%;
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: top center;
+	background-position-y: -150px;
+}
+  
+
+#contact-hero h2 {
+	font-family: "ABugLife", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 800;
+  	font-style: normal;
+	font-size: 70px; 
+	letter-spacing: 10px; 
+	text-align: center; 
+	color: white; 
+  	text-shadow: -1px -1px 0 black;
+	text-transform: uppercase; 
+	z-index: 10; 
+	opacity: .9;
+}
+
+/*-------------------- Form ----------------------*/
+
+.form {
+	background-color: #FDF4F5;
+}
+
+#contact-form h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 12px 0;
+}
 
 /*-------------------- Footer ----------------------*/
 
