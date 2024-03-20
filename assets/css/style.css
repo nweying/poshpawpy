@@ -47,7 +47,6 @@ body{
 
 #hero h2 {
 	font-family: "Poppins", serif;
-	font-optical-sizing: auto;
 	font-weight: 800;
 	font-style: italic;
 	font-size: 70px; 
@@ -62,7 +61,6 @@ body{
 
 #hero p {
 	font-family: "Poppins", serif;
-  	font-optical-sizing: auto;
   	font-weight: 200;
   	font-style: italic;
 	font-size: 20px; 
@@ -142,7 +140,6 @@ body{
   
 #service-hero h2 {
 	font-family: "Poppins", serif;
-  	font-optical-sizing: auto;
   	font-weight: 800;
   	font-style: italic;
 	font-size: 70px; 
@@ -213,7 +210,6 @@ body{
 
 #contact-hero h2 {
 	font-family: "Poppins", serif;
-  	font-optical-sizing: auto;
   	font-weight: 800;
   	font-style: italic;
 	font-size: 70px; 
@@ -286,6 +282,57 @@ body{
 
 /*------------------- Media Queries ------------------*/
 
+@media screen and (max-width: 325px) {
+	#hero {
+		background-position: center center; 
+	}
+
+	#hero h2 {
+		font-size: 30px!important;
+		padding: 10px;
+	}
+
+	#hero p {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.card-title {
+		font-size: 10px;
+		width: 400px;
+		height: 80px;
+		padding-top: 15px;
+		left: 120px;
+	}
+
+	#service-hero h2 {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.mobile-table {
+		display: inline;
+		text-align: center;
+	}
+
+	.desktop-table {
+		display: none;
+	}
+
+	#contact-hero h2 {
+		font-size: 30px!important;
+		padding: 10px;
+	}
+	
+	.form {
+		padding: 30px!important;
+	}
+
+	.thankyou h3 {
+		font-size: 15px;
+	}
+ }
+ 
 @media screen and (max-width: 576px) {
 	#hero {
 		background-position: center center; 
