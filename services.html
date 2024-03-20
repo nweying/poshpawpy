@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid">
       <header>
-        <!-- Classes taken from Bootstrap to make the nav links centered, but align it to left for md screen sizes and above -->
+        <!-- Navbar classes taken from Bootstrap -->
         <nav class="navbar fixed-top navbar-light d-flex justify-content-center justify-content-md-start p-0">
           <a class="navbar-brand p-0" href="index.html">
             <img src="../assets/images/logo.jpg" class="logo" alt="Logo">
@@ -38,81 +38,119 @@
       </section>
       <!----------- Services Available ------------>
       <section id="services">
-        <div class="row p-3">
-            <div class="col-md-4 offset-md-3">
+        <div class="row pt-3">
+            <div class="col-sm-6 col-md-3 offset-md-2 text-center">
                 <h3>Pawpy Day Care</h3><br>
                 <img src="../assets/images/daycare-icon.png" alt="dog icon" class="service-image">
                 <p><b>1-10kg - £20/hour<br> 10-20kg - £25/hour </b></p>
             </div>
-            <div class="col-md-5">
+            <div class="col-sm-6 col-md-3 offset-md-1 text-center">
                 <h3>Pawpy Overnight</h3><br>
                 <img src="../assets/images/overnight-icon.png" alt="sleeping dog icon" class="service-image">
                 <p><b>1-10kg - £90/night<br> 10-20kg - £100/night </b></p>
             </div>
         </div>
-        
+        <!----------- Pricing Table (Desktop/ Mobile) ------------>
         <div class="row pb-3">
             <div class="table-responsive col-md-8 offset-md-2">
-                <table class="table">
-                <thead>
-                <tr>
-                <th scope="col">Other Services<br></th>
-                <th scope="col">XS<br>(<2kg)</th>
-                <th scope="col">S<br>(2-5kg)</th>
-                <th scope="col">M<br>(5-15kg)</th>
-                <th scope="col">L<br>(15-30kg)</th>
-                <th scope="col">XL<br>(30kg+)</th>
-                </tr>
-                </thead>
+                <table class="table desktop-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Other Services<br></th>
+                      <th scope="col">XS<br>(<2kg)</th>
+                      <th scope="col">S<br>(2-5kg)</th>
+                      <th scope="col">M<br>(5-15kg)</th>
+                      <th scope="col">L<br>(15-30kg)</th>
+                      <th scope="col">XL<br>(30kg+)</th>
+                    </tr>
+                  </thead>
                 <tbody>
-                <tr>
-                <th scope="row">Bath & Dry</th>
-                <td>£30</td>
-                <td>£35</td>
-                <td>£40</td>
-                <td>£45</td>
-                <td>£50</td>
-                </tr>
-                <th scope="row">Groom Only</th>
-                <td>£20</td>
-                <td>£25</td>
-                <td>£30</td>
-                <td>£35</td>
-                <td>£40</td>
-                </tr>
+                  <tr>
+                    <th scope="row">Bath & Dry</th>
+                      <td>£30</td>
+                      <td>£35</td>
+                      <td>£40</td>
+                      <td>£45</td>
+                      <td>£50</td>
+                  </tr>
+                    <th scope="row">Groom Only</th>
+                      <td>£20</td>
+                      <td>£25</td>
+                      <td>£30</td>
+                      <td>£35</td>
+                      <td>£40</td>
+                  </tr>
 
                 </tbody>
                 </table>
+
+                <table class="table mobile-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Other Services</th>
+                      <th scope="col">Bath & Dry</th>
+                      <th scope="col">Groom Only</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <th scope="row">XS<br>(<2kg)</th>
+                    <td>£30</td>
+                    <td>£20</td>
+                    </tr>
+                  <tr>
+                    <th scope="row">S<br>(2-5kg)</th>
+                    <td>£35</td>
+                    <td>£25</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">M<br>(5-15kg)</th>
+                    <td>£40</td>
+                    <td>£30</td>
+                  </tr>
+                  <tr>
+                  <th scope="row">L<br>(15-30kg)</th>
+                  <td>£45</td>
+                  <td>£35</td>
+                  </tr>
+                  <tr>
+                  <th scope="row">XL<br>(30kg+)</th>
+                  <td>£50</td>
+                  <td>£40</td>
+                  </tr>
+  
+                  </tbody>
+                  </table>
             </div>
         </div>
         </section>
         <!--------------- Gallary --------------->
         <section>
-            <div class="row gallery">
-              <ul>
-                <li><img src="../assets/images/dog-haircut.jpg" alt="dog haircut" /></li>
-                <li><img src="../assets/images/big-black-dog.jpg" alt="big black dog" /></li>
-                <li><img src="../assets/images/yorkshire-terrier.jpg" alt="yorkshire terrier" /></li>
-                <li><img src="../assets/images/golden-retriever.jpg" alt="golden retriever" /></li>
-                <li><img src="../assets/images/nail-clipping.jpg" alt="nail clipping" /></li>
-                <li><img src="../assets/images/black-dog.jpg" alt="black dog" /></li>
-                <li><img src="../assets/images/wet-dog.jpg" alt="wet dog" /></li>
-                <li><img src="../assets/images/woman-washing-dog.jpg" alt="woman washing dog" /></li>
-                </ul>
-            </div>
+          <div class="row gallery">
+            <ul>
+              <li><img src="../assets/images/dog-haircut.jpg" alt="dog haircut" /></li>
+              <li><img src="../assets/images/big-black-dog.jpg" alt="big black dog" /></li>
+              <li><img src="../assets/images/yorkshire-terrier.jpg" alt="yorkshire terrier" /></li>
+              <li><img src="../assets/images/golden-retriever.jpg" alt="golden retriever" /></li>
+              <li><img src="../assets/images/nail-clipping.jpg" alt="nail clipping" /></li>
+              <li><img src="../assets/images/black-dog.jpg" alt="black dog" /></li>
+              <li><img src="../assets/images/wet-dog.jpg" alt="wet dog" /></li>
+              <li><img src="../assets/images/woman-washing-dog.jpg" alt="woman washing dog" /></li>
+              </ul>
+          </div>
         </section>
 
       <footer>
         <div class="container-fluid" id="footerinfo">
           <div class="row justify-content-center p-4">
           <!-- First column: Get in Touch -->
-          <div class="col-md-4 pl-5">
+          <div class="col-md-4 footerblock">
           <h4>Get in Touch</h4>
           <p>54 Sunflower Street,<br> London, UK<br> Phone: +44 79824 28937<br> Email: info@poshpawpy.com</p>
           </div>
           
           <!-- Second column: Find Us -->
-          <div class="col-md-4">
+          <div class="col-md-4 footerblock">
           <h4>Find Us</h4>
           <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.5218263727447!2d-122.40823148573268!3d37.78499987976127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e9f2d3c2c81%3A0xf805f9b2bf103e5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1646918048221!5m2!1sen!2sus" allowfullscreen></iframe>
@@ -120,7 +158,7 @@
           </div>
           
           <!-- Third column: Operating Hours -->
-          <div class="col-md-4">
+          <div class="col-md-4 footerblock">
           <h4>Operating Hours</h4>
           <p>Monday - Friday: 9:00 AM - 6:00 PM<br> Saturday: 10:00 AM - 4:00 PM<br> Sunday: Closed</p>
           </div>
@@ -143,7 +181,6 @@
           </ul>
         </div>
           
-      
       </footer>
   </div>  
 </body>

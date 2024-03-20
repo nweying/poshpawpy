@@ -44,7 +44,6 @@ body{
 	background-repeat: no-repeat; 
 	background-position: top center;
 }
-  
 
 #hero h2 {
 	font-family: "Poppins", serif;
@@ -69,7 +68,8 @@ body{
 	font-size: 20px; 
 	letter-spacing: 8px; 
 	text-align: center; 
-	color: white; 
+	color: #fff; 
+	text-shadow: -1px -1px 0 #000;
 	text-transform: uppercase; 
 	z-index: 10; 
 	opacity: .9;
@@ -79,18 +79,17 @@ body{
 
 #about {
 	background-color: #C0DBEA;
-	padding-bottom: 10px;
 }
 
 .about-logo {
-	height: 400px;
-	width: 650px;
-	align-content: center;
+	height: 300px;
+	width: auto;
+	padding-left: 15px;
 }
 
 #about .about-description {
 	color: #000;
-	padding: 100px 80px;
+	padding: 70px 60px;
 }
 
 #about .about-description h4 {
@@ -101,11 +100,6 @@ body{
 
 #ourtestimonials {
   background-color: #FDF4F5;
-}
-
-.testimonials > img {
-	height: 400px;
-	width: auto;
 }
 
 .testimonials {
@@ -123,11 +117,9 @@ body{
   height: 100px;
   padding-top: 15px;
   padding-left: 20px;
-
   background-color: rgba(128, 128, 128, 0.5);
   bottom: 30px;
   right: 80px;
-
   position: absolute;
 }
 
@@ -148,7 +140,6 @@ body{
 	background-position: top center;
 }
   
-
 #service-hero h2 {
 	font-family: "Poppins", serif;
   	font-optical-sizing: auto;
@@ -167,12 +158,18 @@ body{
 .services h3, p {
 	align-content: center;
 }
+
 .services p {
 	font-style: italic;
 }
+
 .service-image{
 	width: 100px;
 	align-content: center;
+}
+
+.mobile-table {
+	display: none;
 }
 
 /*-------------------- Gallery ----------------------*/ 
@@ -213,7 +210,6 @@ body{
 	background-position: top center;
 	background-position-y: -150px;
 }
-  
 
 #contact-hero h2 {
 	font-family: "Poppins", serif;
@@ -240,6 +236,12 @@ body{
 	text-transform: uppercase;
 	text-align: center;
 	padding: 12px 0;
+}
+
+.thankyou {
+	text-align: center;
+	padding: 60px 0;
+	background-color: #BA90C6;
 }
 
 /*-------------------- Footer ----------------------*/
@@ -278,13 +280,84 @@ body{
   color: #777777;
 }
 
+.footerblock {
+	padding: 20px 0 20px 50px;
+}
+
 /*------------------- Media Queries ------------------*/
 
-@media screen and (max-width: 992px) {
-	
+@media screen and (max-width: 576px) {
+	#hero h2 {
+		font-size: 40px !important;
+		padding: 10px;
+	}
 
+	#hero p {
+		font-size: 18px;
+		padding: 10px;
+	}
+
+	.card-title {
+		font-size: 12px;
+		width: 400px;
+		height: 80px;
+		padding-top: 15px;
+		left: 120px;
+	}
+
+	#service-hero h2 {
+		font-size: 40px;
+		padding: 10px;
+	}
+
+	.mobile-table {
+		display: inline;
+		text-align: center;
+	}
+
+	.desktop-table {
+		display: none;
+	}
+
+	#contact-hero h2 {
+		font-size: 40px;
+		padding: 10px;
+	}
 	
+	.form {
+		padding: 30px!important;
+	}
+ }
+
+@media screen and (max-width: 768px) { 
+	#hero h2 {
+		font-size: 60px;
+		padding: 10px;
+	}
+
+	#hero p {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.card-title {
+		font-size: 10px;
+		letter-spacing: 1px;
+		width: 200px;
+		height: 70px;
+		padding-top: 15px;
+		left: 10px;
+	  }
+
+	#service-hero h2 {
+		font-size: 40px;
+		padding: 10px;
+	}
+
+	#contact-hero h2 {
+		font-size: 60px;
+		padding: 10px;
+	}
 }
 
 
-@media screen and (max-width: 800px)
