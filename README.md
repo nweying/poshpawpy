@@ -14,8 +14,9 @@ Posh Pawpy is a website for pet owners that are seeking dog grooming services.
   * [Typography](#Typography)
   * [Imagery](#Imagery)
   * [Wireframes](#Wireframes)
-  * [Features](#Features)
-  * [Accessibility](#Accessibility)
+
+* [Features](#Features)
+    * [Accessibility](#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
@@ -27,6 +28,10 @@ Posh Pawpy is a website for pet owners that are seeking dog grooming services.
     * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
 
+* [Testing](#Testing)
+  * [HTML Validation](#HTML-Validation)
+  * [CSS Validation](#CSS-Validation)
+  * [Testing User Stories](#Testing-User-Stories)
 
 
 - - -
@@ -94,7 +99,7 @@ Wireframes were developed for mobile, tablet, and desktop devices, ensuring good
 <img src="assets/readme-images/contact-wireframe.png">
 </details>
 
-### Features
+## Features
 
 The website consists of four pages, with three accessible directly from the navigation menu: home, services, and contact us. The fourth page serves as a thank you page, appearing automatically when a user submits a form on the contact us page.
 
@@ -114,7 +119,7 @@ The website consists of four pages, with three accessible directly from the navi
   * **Services & Pricing**: Presents key services first, highlighting day care and overnight options with pricing tiers based on the weight of the dog. Below that, a detailed table displays additional services, categorized by dog weight, with corresponding pricing variations. The table format adjusts seamlessly, appearing horizontally on larger screens and vertically on smaller devices.
   * **Gallery**: Features a selection of images showcasing dogs undergoing grooming treatments at Posh Pawpy.
 
-* Contact Us Page
+* Contact Page
   * **Form**: The contact form features fields for the user's name, email address, and a text area for additional information. A submit button is placed below the fields. The name and email fields are mandatory, ensuring necessary details are provided for successful form submission. A helpful tooltip prompts users to fill in any missing information before submission.
 
 * Thank You Page
@@ -154,11 +159,11 @@ The website follows accessability guidelines, ensuring inclusivity for all users
 
 - [Adobe Express](https://www.adobe.com/express/) To resize images.
 
-- [Wepik](https://favicon.io/) To edit the logo styling.
-
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website images on a range of devices.
 
 - [Freepik](https://www.freepik.com/) and [Vectezzy](https://www.vecteezy.com/) For all images used in website.
+
+- [Wepik](https://favicon.io/) To edit the logo styling.
 
 - - -
 
@@ -179,7 +184,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### How to Fork
 
-To fork the poshpawpy repository:
+To fork the Posh Pawpy repository:
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, [PoshPawpy Github](https://github.com/nweying/poshpawpy).
@@ -195,3 +200,72 @@ To clone the Posh Pawpy repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3.
 6. Press Enter. Your local clone will be created.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+### HTML Validation
+ <details><summary>Home</summary>
+<img src="assets/readme-images/index.html-validation.png">
+</details>
+<details><summary>Services</summary>
+<img src="assets/readme-images/services.html-validation.png">
+</details>
+<details><summary>Contact</summary>
+<img src="assets/readme-images/contact.html-validation.png">
+</details>
+<details><summary>Thank You</summary>
+<img src="assets/readme-images/thank-you.html-validation.png">
+</details>
+
+### CSS Validation
+<details><summary>style.css</summary>
+<img src="assets/readme-images/css-validation.png">
+</details>
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a first time visitor, I want to explore the website to learn about the services offered by Posh Pawpy.
+
+        1. 
+
+    2. As a first time visitor, I want to easily navigate through the website to find essential information such as contact details, location, and pricing.
+
+        1. 
+
+    3. As a first time visitor, I want to find testimonials from satisfied customers.
+
+        1. 
+
+    3. As a first time visitor, I want to easily contact Posh Pawpy with questions I might have.
+
+        1. 
+
+
+-   #### Returning Visitor Goals
+
+    1. As a returning time visitor, I want to schedule more grooming appointments.
+
+        1. 
+
+    2. As a returning time visitor, I want to explore the gallery section to view images of previous grooming sessions.
+
+        1. 
+
+    3. As a returning time visitor, I want to provide feedback or testimonials to Posh Pawpy.
+
+        1. 
+
+-   #### Frequent User Goals
+
+    1. As a frequent visitor, I want to stay updated on any new services, or changes to the pricing.
+
+        1. 
+
+    2. As a frequent visitor, I want to connect with Posh Pawpy through social media channels.
+
+        1. 
+
