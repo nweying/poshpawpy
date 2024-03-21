@@ -31,6 +31,7 @@ Posh Pawpy is a website for pet owners that are seeking dog grooming services.
 * [Testing](#Testing)
   * [HTML Validation](#HTML-Validation)
   * [CSS Validation](#CSS-Validation)
+  * [Lighthouse](#Lighthouse)
   * [Testing User Stories](#Testing-User-Stories)
 
 

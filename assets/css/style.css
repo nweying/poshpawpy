@@ -4,6 +4,11 @@ body{
 	font-family: "Poppins", Serif;
 }
 
+.row{ 
+	margin-left: 0!important; 
+	margin-right: 0!important;
+}
+
 /*------------------- Navigation -------------------*/
 
 .logo {
@@ -416,4 +421,21 @@ body{
 	}
 }
 
+@media screen and (max-width: 1200px) and (min-width: 768px) { 
+	.card-title {
+		font-size: 10px;
+		letter-spacing: 1px;
+		width: 250px;
+		height: 60px;
+		padding-top: 10px;
+		left: 10px;
+	  }
+
+	.footerblock {
+		font-size: 12px;
+	}
+	.footerblock iframe {
+		width: 200px;
+	}
+}
 
