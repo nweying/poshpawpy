@@ -274,7 +274,7 @@ All user stories for first-time, returning, and frequent visitors have been thor
 
         1. Users that want to provide feedback can contact Posh Pawpy using the contact information in the footer or the contact form.
 
--   #### Frequent User Goals
+-   #### Frequent Visitor Goals
 
     1. As a frequent visitor, I want to stay updated on any new services, or changes to the pricing.
 
