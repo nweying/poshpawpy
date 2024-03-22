@@ -8,7 +8,7 @@ To see the live version of the site click [here](https://nweying.github.io/poshp
 
 ## CONTENTS
 
-* [User Experience (UX)](#User-Experience-(UX))
+* [User Experience (UX)](#User-Experience-UX)
   * [User Stories](#User-Stories)
 
 * [Design](#Design)
@@ -22,24 +22,30 @@ To see the live version of the site click [here](https://nweying.github.io/poshp
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks-Libraries--Programs-Used)
 
-* [Deployment & Local Development](#Deployment-&-Local-Development)
+* [Deployment & Local Development](#Deployment--Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
     * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
-  * [Testing User Stories](#Testing-User-Stories)
+  * [Testing User Stories](#Testing-User-Stories-from-User-Experience-UX-Section)
   * [HTML Validation](#HTML-Validation)
   * [CSS Validation](#CSS-Validation)
   * [Lighthouse](#Lighthouse)
-  * [Browser Compatability & Responsiveness](#Browser-Compatability-&-Responsiveness)
-  * [Bugs](#Bugs)
+  * [Browser Compatability & Responsiveness](#Browser-Compatability--Responsiveness)
+  * [Bugs](#Bugs--Fixes)
 
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgments](#Acknowledgments)
 
 - - -
+
 ## User Experience (UX)
 
 ### Target Audience
@@ -95,15 +101,18 @@ All images used including hero images, logo, icons, gallery images were taken fr
 
 Wireframes were developed for mobile, tablet, and desktop devices, ensuring good user experiences across various screen sizes.
 
-<details><summary>Home Page</summary>
-<img src="assets/readme-images/home-wireframe.png">
-</details>
-<details><summary>Services Page</summary>
-<img src="assets/readme-images/services-wireframe.png">
-</details>
-<details><summary>Contact Us Page</summary>
-<img src="assets/readme-images/contact-wireframe.png">
-</details>
+**Home Page:**
+
+![Home Page Wireframe](assets/readme-images/home-wireframe.png)
+
+**Services Page:**
+
+![Services Page Wireframe](assets/readme-images/services-wireframe.png)
+
+**Contact Us Page:**
+
+![Contact Page Wireframe](assets/readme-images/contact-wireframe.png)
+
 
 ## Features
 
@@ -304,39 +313,33 @@ Lighthouse within Chrome Developer Tools was used to test performance on desktop
 
 #### Desktop
 
-1. _index.html:_
-
-![index.html desktop](assets/readme-images/index.html-lighthouse-desktop.png)
-
-2. _services.html:_
-
-![services.html desktop](assets/readme-images/services.html-lighthouse-desktop.png)
-
-3. _contact.html:_
-
-![contact.html desktop](assets/readme-images/contact.html-lighthouse-desktop.png)
-
-4. _thank-you.html:_
-
-![thank-you.html desktop](assets/readme-images/thank-you.html-lighthouse-desktop.png)
+<details><summary>Home</summary>
+<img src="assets/readme-images/index.html-lighthouse-desktop.png">
+</details>
+<details><summary>Services</summary>
+<img src="assets/readme-images/services.html-lighthouse-desktop.png">
+</details>
+<details><summary>Contact</summary>
+<img src="assets/readme-images/contact.html-lighthouse-desktop.png">
+</details>
+<details><summary>Thank You</summary>
+<img src="assets/readme-images/thank-you.html-lighthouse-desktop.png">
+</details>
 
 #### Mobile
 
-1. _index.html:_
-
-![index.html mobile](assets/readme-images/index.html-lighthouse-mobile.png)
-
-2. _services.html:_
-
-![services.html mobile](assets/readme-images/services.html-lighthouse-mobile.png)
-
-3. _contact.html:_
-
-![contact.html mobile](assets/readme-images/contact.html-lighthouse-mobile.png)
-
-4. _thank-you.html:_
-
-![thank-you.html mobile](assets/readme-images/thank-you.html-lighthouse-mobile.png)
+<details><summary>Home</summary>
+<img src="assets/readme-images/index.html-lighthouse-mobile.png">
+</details>
+<details><summary>Services</summary>
+<img src="assets/readme-images/services.html-lighthouse-mobile.png">
+</details>
+<details><summary>Contact</summary>
+<img src="ssets/readme-images/contact.html-lighthouse-mobile.png">
+</details>
+<details><summary>Thank You</summary>
+<img src="assets/readme-images/thank-you.html-lighthouse-mobile.png">
+</details>
 
 ### Browser Compatability & Responsiveness
 
@@ -349,9 +352,36 @@ The website was tested on the following browsers:
 
 The website underwent thorough responsiveness testing using Google Dev Tools across various screen sizes. CSS media queries and the Bootstrap grid system were extensively used throughout to guarantee that the layout adjusts seamlessly, maintaining the structural integrity of the pages across all device screen sizes.
 
-## Bugs
+## Bugs & Fixes
 
 | **Bug** | **Fix** |
+| ----------- | ----------- |
+| Horizontal scroll appearing at the bottom of the page | Set both left and right margin of the row to zero |
+| Testimonial texts overlapping in smaller screen sizes | Updated media query and adjusted text positioning in CSS |
+| Testimonial images stretching | Removed unnecessary CSS rule defining image dimensions |
+| Map and Operating Hours in footer overlapping in medium screen sizes | Set up additional media query for medium screen sizes, adjusted map width, reduced  text font size |
+| Images not appearing on deployed site | Corrected relative file path to ensure proper image display |
+| Service and pricing table not responsive on smaller screen sizes | Created a vertical table specifically for smaller screens where the original horizontal table is hidden |
 
+## Credits
 
+### Code
 
+-   Code for gallery layout using flexbox taken from [CSS Tricks](https://css-tricks.com/adaptive-photo-layout-with-flexbox/) shared by my mentor.
+
+-   [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/download/) Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+### Content
+
+-   All content was written by the developer.
+
+### Media
+
+-   All Images were taken from [Freepik](https://www.freepik.com/) and [Vectezzy](https://www.vecteezy.com/).
+
+### Acknowledgements
+I would like to thank:
+- My mentor Mitko for his guidance and feedback throughout the whole project.
+- My Cohort Facilitator Kristyna for the tips and support given out weekly.
+- To Tutor Support and Student Care for prompt support on any issues I faced.
+- To the CI Slack Community for advice and recommendations.
