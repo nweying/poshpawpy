@@ -59,16 +59,16 @@ To see the live version of the site click [here](https://nweying.github.io/poshp
 #### First Time Visitor Goals
 
 * As a first time visitor, I want to understand what kind of business Posh Pawpy is.
-* As a first time visitor, I want to easily navigate through the website to find essential information such as contact details, location, and pricing.
+* As a first time visitor, I want to easily navigate through the website to find essential information such as contact details and location.
 * As a first time visitor, I want to learn about the services offered by Posh Pawpy.
 * As a first time visitor, I want to find testimonials from satisfied customers.
 * As a first time visitor, I want to easily contact Posh Pawpy with questions I might have.
 
 #### Returning Visitor Goals
 
-* As a returning time visitor, I want to schedule more grooming appointments.
-* As a returning time visitor, I want to explore the gallery section to view images of previous grooming sessions.
-* As a returning time visitor, I want to provide feedback or testimonials to Posh Pawpy.
+* As a returning visitor, I want to schedule more grooming appointments.
+* As a returning visitor, I want to explore the gallery section to view images of previous grooming sessions.
+* As a returning visitor, I want to provide feedback or testimonials to Posh Pawpy.
 
 #### Frequent Visitor Goals
 
@@ -84,7 +84,7 @@ To see the live version of the site click [here](https://nweying.github.io/poshp
 ![Posh Pawpy Website Colour Palette](assets/readme-images/poshpawpy-color-palette.png)
 ![Posh Pawpy Website Colour Codes](assets/readme-images/poshpawpy-colorcodes.png)
 
-Throughout the Posh Pawpy website and also for the logo, I used a palette of pastel colors in order to radiate warmth and friendliness. The colour palette was created using the [Colot Hunt](https://colorhunt.co/) website.
+Throughout the Posh Pawpy website and also for the logo, I used a palette of pastel colors in order to radiate warmth and friendliness. The colour palette was created using the [Color Hunt](https://colorhunt.co/) website.
 
 ### Typography
 
@@ -99,7 +99,7 @@ All images used including hero images, logo, icons, gallery images were taken fr
 
 ### Wireframes
 
-Wireframes were developed for mobile, tablet, and desktop devices, ensuring good user experiences across various screen sizes.
+Wireframes were developed for mobile, tablet, and desktop devices, ensuring good user experience across various screen sizes.
 
 **Home Page:**
 
@@ -120,12 +120,12 @@ The website consists of four pages, with three accessible directly from the navi
 
 * Header and Footer
 
-  * **Responsive Navigation Bar**: Positioned on the top-left of the screen, the logo and navigation bar adapt to different screen sizes. On larger screens, they maintain a clean alignment to the left, whereas on smaller devices, they centered and stacked for improved usability. The active page is denoted by bold and underlined text on the navigation bar, while hovering over each menu item highlights the links for enhanced user interaction. The navigation bar remains fixed at the top of the screen, ensuring easy access as users scroll through the page.
+  * **Responsive Navigation Bar**: Positioned on the top-left of the screen, the logo and navigation bar adapt to different screen sizes. On larger screens, they maintain a clean alignment to the left, whereas on smaller devices, they are centered and stacked for improved usability. The active page is denoted by bold and underlined text on the navigation bar, while hovering over each menu item highlights the links for enhanced user interaction. The navigation bar remains fixed at the top of the screen, ensuring easy access as users scroll through the page.
 
-  * **Footer with Business Info and Social Media Links**: Divided into two sections, the footer offers important details about Posh Pawpy, including business address, map location, and operating hours in the first section, each highlighted with corresponding icons. In the second section, there is copyright information and clickable social media links for Facebook, Twitter, YouTube, and Instagram are displayed, further enhancing user engagement.
+  * **Footer with Business Info and Social Media Links**: Divided into two sections, the footer offers important details about Posh Pawpy, including business address, phone number, map location, and operating hours in the first section, each highlighted with corresponding icons. In the second section, copyright information along with clickable social media links for Facebook, Twitter, YouTube, and Instagram are displayed, further enhancing user engagement.
 
 * Home Page
-  * **Hero Section**: This section greets visitors with a hero image and a welcoming message that introduces Posh Pawpy's premier dog grooming service. 
+  * **Hero Section**: This section greets visitors with a hero image and a welcome message that introduces Posh Pawpy's premier dog grooming service. 
   * **About Us**: A bigger version of the logo is dislpayed alongside a description of "Who We Are" as a business. On larger screens, the logo and description are arranged in a row, while on mobile devices, they stack vertically for better readability.
   * **Testimonials**: This section showcases feedback from previous customers, accompanied by images of their dogs. Each testimonial provides insights into the positive experiences clients have had with Posh Pawpy's grooming services.
 
@@ -164,6 +164,8 @@ The website follows accessability guidelines, ensuring inclusivity for all users
 - Font Awesome - For the iconography on the website.
 
 - Git - For version control.
+
+- Gitpod - To write code for the website.
 
 - Github - To save and store the files for the website.
 
@@ -258,17 +260,17 @@ All user stories for first-time, returning, and frequent visitors have been thor
 
 -   #### Returning Visitor Goals
 
-    1. As a returning time visitor, I want to schedule more grooming appointments.
+    1. As a returning visitor, I want to schedule more grooming appointments.
 
         1. Returning users can schedule grooming appointments by accessing the contact form on the "Contact Us" page.
 
-    2. As a returning time visitor, I want to explore the gallery section to view images of previous grooming sessions.
+    2. As a returning visitor, I want to explore the gallery section to view images of previous grooming sessions.
 
         1. When users scroll down on the "Services" page, there is a gallery section showcasing images of previous grooming sessions, allowing returning users to explore Posh Pawpy's work.
 
         ![Gallery Screenshot](assets/readme-images/gallery-screenshot.png)
 
-    3. As a returning time visitor, I want to provide feedback or testimonials to Posh Pawpy.
+    3. As a returning visitor, I want to provide feedback or testimonials to Posh Pawpy.
 
         1. Users that want to provide feedback can contact Posh Pawpy using the contact information in the footer or the contact form.
 
@@ -335,7 +337,7 @@ Lighthouse within Chrome Developer Tools was used to test performance on desktop
 <img src="assets/readme-images/services.html-lighthouse-mobile.png">
 </details>
 <details><summary>Contact</summary>
-<img src="ssets/readme-images/contact.html-lighthouse-mobile.png">
+<img src="assets/readme-images/contact.html-lighthouse-mobile.png">
 </details>
 <details><summary>Thank You</summary>
 <img src="assets/readme-images/thank-you.html-lighthouse-mobile.png">
@@ -356,7 +358,7 @@ The website underwent thorough responsiveness testing using Google Dev Tools acr
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Horizontal scroll appearing at the bottom of the page | Set both left and right margin of the row to zero |
+| Horizontal scroll appearing at the bottom of all pages | Set both left and right margin of the row to zero |
 | Testimonial texts overlapping in smaller screen sizes | Updated media query and adjusted text positioning in CSS |
 | Testimonial images stretching | Removed unnecessary CSS rule defining image dimensions |
 | Map and Operating Hours in footer overlapping in medium screen sizes | Set up additional media query for medium screen sizes, adjusted map width, reduced  text font size |
